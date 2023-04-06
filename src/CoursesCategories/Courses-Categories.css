@@ -1,0 +1,66 @@
+.parent-container{
+    margin-top: 50px;
+}
+.parent{
+    position: relative;
+}
+.colum{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.HoverDesign{
+    box-shadow: 0px 0px 20px 0px #00000014;
+}
+.HoverDesign:hover {
+    transform: translateY(-1em);
+    transition: all .5s;
+    box-shadow: 0px 0px 20px 0px #f6f6ee;
+}
+.course-title{
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(167, 165, 165);
+}
+.course-Para{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif ;
+}
+.Enroll{
+    float: right;
+    box-shadow: none;
+    border-radius: 30px;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #e9db6a;
+    border-color: #e9db6a;
+}
+.Enroll:hover{
+    background-color: white;
+    color: black;
+    border-color: #e9db6a;
+}
+.dollar{
+    position: absolute;
+    left: 19px;
+    top: 89%;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif ;
+}
+.seeMore{
+    margin-top: 60px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif ;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 485px;
+    box-shadow: none;
+    font-weight: 600;
+}
+.seeMore:hover{
+    background-color: white;
+    color: black;
+}

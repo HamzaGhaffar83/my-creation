@@ -1,0 +1,91 @@
+.parent-stories{
+    padding-top: 70px;
+    background-color: #f1f1f1;
+}
+.child-stories{
+    display: flex;
+}
+.child-stories h4{
+    font-weight: 700;
+    font-size: 40px;
+    font-family:  sans-serif;
+}
+.child-stories p{
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    font-family:  sans-serif ;
+    font-weight: 300;
+}
+.arrow-icons{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.arrow-icons svg{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.stories-card{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.st-card-1{
+    background-color: #d4c663;
+}
+.st-card-1:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: #d4c663;
+    transition: .5s;
+    transform: translate(-2px, -10%);
+}
+.st-card-2{
+    background-color: #cea8cf;
+}
+.st-card-2:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: #cea8cf;
+    transition: .5s;
+    transform: translate(-2px, -10%);
+}
+.st-card-3{
+    background-color: #79d8d2;
+}
+.st-card-3:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: #79d8d2;
+    transition: .5s;
+    transform: translate(-2px, -10%);
+}
+.stories-title{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 17px;
+}
+.stories-para{
+    color: rgb(85, 84, 84);
+    font-size: 15px;
+    padding-top: 10px;
+}
+.mentor-card-1{
+    position: relative;
+    top: 0;
+    left: 3%;
+
+}
+.mentor-card-1 h5{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px;
+}
+.mentor-card-1 p{
+    top: 50%;
+    left: 0;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(85, 84, 84);
+}

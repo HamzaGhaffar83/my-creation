@@ -1,0 +1,56 @@
+.section{
+    margin-top: 80px;
+    border-top: 1px solid rgb(184, 184, 184);
+    padding-top: 60px;
+}
+.Mentor-skills{
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Mentors-Para{
+    font-size: 14px;
+    color: rgb(173, 171, 171);
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-left: 35px;
+}
+.parent-Mentor{
+    display: flex;
+    padding-top: 60px;
+}
+.child-mentor:hover{
+    cursor: pointer;
+    transform: scale(.9);
+    transition: all .5s;
+    
+}
+.Mentors-img{
+    width: 100%;
+    padding: 9px;
+}
+.mentors-name{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px;
+    font-weight: 800;
+}
+.mentors-courses{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.play-button{
+    display: flex;
+}
+.play-button svg{
+    color: #e9db6a;
+    background-color: black;
+    border-radius: 60%;
+    border: 1px solid #e9db6a;
+}
+.play-button p{
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin: -3px 10px;
+}

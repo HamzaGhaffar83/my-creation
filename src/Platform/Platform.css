@@ -1,0 +1,84 @@
+.platfrom{
+    padding-top: 70px;
+    background-color: #efefe7;
+    margin-top: 60px;
+}
+.parent-platfrom{
+    display: flex;
+}
+.child-platform h4{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.child-platform p{
+    font-size: 14px;
+    color: rgb(173, 171, 171);
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 10px;
+}
+.platform1{
+    border-radius: 20px;
+    padding: 5px;
+}
+.platform2{
+    border-radius: 20px;
+    padding: 5px;
+}
+.Activities{
+    display: flex;
+    padding-top: 80px;
+}
+.platform-card:hover{
+    cursor: pointer;
+    transform: translateY(-1rem);
+    transition: .5s;
+}
+.platform-card1:hover{
+    cursor: pointer;
+    transform: translateX(1rem);
+    transition: .5s;
+}
+.column-1{
+    margin-left: 25px;
+    padding-bottom: 60px;
+}
+.card-3{
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #00000014;
+    height: 185px;
+    cursor: pointer;
+}
+.card-3:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.card-2{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #00000014;
+    height: 185px;
+    cursor: pointer;
+}
+.card-2:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.platform-heading{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 18px auto;
+}
+.platform-para{
+    font-size: 14px;
+    color: rgb(173, 171, 171);
+}
+.platform-logo{
+    background-color: #faec72;
+    display: inline-block;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}

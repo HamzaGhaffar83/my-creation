@@ -1,0 +1,44 @@
+.parent-download{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #d8d8ce;
+    padding-bottom: 50px;
+}
+.download-section h2{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+}
+.download-section p{
+    font-family:  sans-serif ;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 20px;
+    color: rgb(85, 84, 84);
+
+}
+.download-button{
+    padding-top: 20px;
+}
+
+.download-button a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 300px;
+    font-family: 'Montserrat', sans-serif ;
+    margin-left: 20px;
+}
+.download-button a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    transition: .5s;
+   border: 1px solid;
+}
+.download-button svg{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

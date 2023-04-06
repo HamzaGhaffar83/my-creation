@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    position: sticky;
+    top:0px;
+    z-index: 10;
+    
+}
+#navbar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-size: 15px;
+   
+}
+.logo{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.me-5{
+    color: #212121;
+}
+.sign-in{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+#button{
+    float: right;
+    margin-bottom: 23px;
+    border-radius: 18px;
+    height: 40px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 700;
+    border-color: black;
+    background-color: transparent;
+    color: black;
+    margin-top: 10px;
+    margin-left: -5px;
+    padding-top: 8px;
+    width: 111px;
+}
+
+#button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
